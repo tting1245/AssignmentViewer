@@ -7,7 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./public/img/favicon/favicon.ico">
-    <link rel="stylesheet" href="./public/css/category.css">
+    <link rel="stylesheet" href="./public/css/information.css">
     <title>Assignment | Community Site - Information</title>
 </head>
 <body>
@@ -25,7 +25,7 @@
             </div>
 
             <div class="side-content">
-                <a href="./comunity.html"><li><img src="./public/img/chat.png" title="Comunity"></a></li>
+                <a href="./community.html"><li><img src="./public/img/chat.png" title="Comunity"></a></li>
                 <a href="./Q&A.html"><li><img src="./public/img/Q&A.png" title="Q&A"></a></li>
                 <a href="./information.html"><li><img src="./public/img/information.png" title="Information"></a></li>
             </div>
@@ -38,8 +38,8 @@
             </div>
 
             <div class="side2-menu">
-                <a href="#"><p>Front-end Developer</p></a>
-                <a href="#"><p>Back-end Developer</p></a>
+                <a href="#front" class="scroll1"><p>Front-end Developer</p></a>
+                <a href="#back" class="scroll2"><p>Back-end Developer</p></a>
                 <a href="https://github.com/tting1245/AssignmentViewer">Github</a>
             </div>
         </div>
@@ -47,12 +47,43 @@
 
     <div class="container">
 
-        <div class="front">
-            <div class="profile">
-                <p>Front-end Developer</p>
-                <img src="./public/img/Profile.jpg">
+        <!-- Front-end Developer -->
+        <div id="front">
+            <div>
+                <h2><p>Front-end Developer</p></h2>
+            </div>
+
+            <div class="profile-img">
+                <img src="./public/img/profile.png">
+            </div>
+
+            <div class="profile-content">
+                <p><strong>Name</strong> : LEE SU MIN</p>
+                <p><strong>Birth</strong> : 2001.04.19</p>
+                <p><strong>Hobby</strong> : Soccer, Listening to Music</p>
+            </div>
+        </div>
+
+        <!-- Back-end Developer -->
+        <div id="back">
+            <div>
+                <h2><p>Back-end Developer</p></h2>
+            </div>
+        
+
+            <div class="profile2-img">
+                <img src="./public/img/profile2.png">
+            </div>
+
+            <div class="profile2-content">
+                <p><strong>Name</strong> : PARK JEONG HYEON</p>
+                <p><strong>Birth</strong> : 2001.08.21</p>
+                <p><strong>Hobby</strong> : Sleepping</p>
             </div>
         </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+    <script src="./public/js/style.js"></script>
 </body>
 </html>

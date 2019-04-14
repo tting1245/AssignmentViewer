@@ -58,3 +58,42 @@ img {
     margin-top: 150px;
     margin-left: 40px;
 }
+
+.container {
+    width: 100%;
+    height: 110rem;
+}
+
+.All p {
+    overflow-y: hidden; 
+    margin-top: 90px;
+}
+
+.All-post1, .C-post1, .Java-post1, .web-post1 {
+    border: 1px solid #000;
+    width: 500px;
+}
+
+.All-post1 p, .All-post2 p, .C-post1 p, .C-post2 p, .Java-post1 p, .Java-post2 p,
+.web-post1 p, .web-post2 p {
+    margin-left: 20px;
+}
+
+.All-post1 p:nth-child(3), .All-post2 p:nth-child(3), .C-post1 p:nth-child(3), .C-post2 p:nth-child(3),
+.Java-post1 p:nth-child(3), .Java-post2 p:nth-child(3), .web-post1 p:nth-child(3),
+.web-post2 p:nth-child(3) {
+    margin-top: -30px;
+    font-size: 12px;
+}
+
+.All-post2, .C-post2, .Java-post2, .web-post2 {
+    border: 1px solid #000;
+    width: 500px;
+    margin-left: 500px;
+    margin-top: -158px;
+}
+
+.C p, .Java p, .web p {
+    overflow: hidden;
+    margin-top: 120px;
+}
